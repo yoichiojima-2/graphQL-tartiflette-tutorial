@@ -1,0 +1,12 @@
+query {
+  recipes {
+    id
+    name
+    cookingTime
+    ingredients {
+      name
+      quantity
+      unitMeasurement
+    }
+  }
+}
